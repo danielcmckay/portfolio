@@ -1,0 +1,34 @@
+.CodeIcon {
+  position: absolute;
+  top: 180px;
+  right: 20%;
+}
+
+.CodeIcon div {
+  height: 35px;
+  margin: 15px;
+  border-radius: 15px;
+}
+.topLevel {
+  background-color: slateblue;
+  width: 200px;
+}
+
+.midLevel {
+  background-color: #ec1b29;
+  transform: translateX(25px);
+  width: 225px;
+}
+
+.insideLevel {
+    background-color: steelblue;
+    transform: translateX(50px);
+    width: 200px;
+
+}
+
+@media screen and (max-width: 1250px) {
+  .CodeIcon {
+    display: none;
+  }
+}

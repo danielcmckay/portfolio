@@ -1,0 +1,19 @@
+.ContentWrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .ContentWrapper {
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+  }
+}

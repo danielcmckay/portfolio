@@ -1,0 +1,64 @@
+.Project {
+  width: 40%;
+  height: 70vh;
+  margin: 10px 30px;
+  padding: 0;
+  z-index: 1000;
+  border-radius: 25px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all ease-in .3s;
+  color: black;
+  padding: 25px;  
+  color: rgba(34, 34, 34, 0.493);
+
+
+}
+
+.Project:hover {
+  background: rgba(196, 196, 196, 0.014);
+  color: #222;
+  transition: all ease-in .5s;
+  box-shadow: 24px 15px 36px 0px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.Project p {
+  text-align: left;
+  margin-top: 5px;
+
+}
+
+.Project h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+.imgPlaceholder {
+  height: 55%;
+  width: 100%;
+  background: #222;
+  display: inline-block;
+}
+
+
+.Project a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .Project {
+    width: 100%;
+    margin: 0;
+  }
+  .imgPlaceholder {
+    height: 30%;
+  }
+}

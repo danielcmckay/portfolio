@@ -1,0 +1,91 @@
+.Home {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 50px;
+  margin: auto;
+}
+
+.Home h1 {
+  font-size: 72px;
+}
+
+.Home sub {
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.social-icons {
+  width: 50%;
+  font-size: 3rem;
+  text-align: left;
+}
+
+i:hover {
+  cursor: pointer;
+  color: #222;
+  transition: all ease-in .2s;
+}
+
+.social-icons i {
+  margin: 25px 15px;
+  display: inline-block;
+}
+
+.Next-Page-Btn {
+  padding: 1rem;
+  color: white;
+  background: #222;
+  font-size: 18px;
+  border-radius: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.Next-Page-Btn:hover {
+  color: #222;
+  background: none;
+  border: 1px solid #222;
+  transition: all ease-in-out .2s;
+}
+
+.social-icons a {
+  color: #222;
+}
+
+.social-icons a i:hover {
+  color: #999;
+  transition: all ease-in .2s;
+}
+
+@media screen and (max-width: 1200px) {
+  .Home {
+    width: 80%;
+    margin: auto;
+    padding: 20px 50px;
+    justify-content: center;
+  align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Home {
+    width: 80%;
+    margin: 0;
+    padding: 0px 0px;
+    align-items: center;
+  }
+  
+  .Home sub {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .Home .social-icons {
+    width: 80%;
+    margin: auto;
+  }
+}

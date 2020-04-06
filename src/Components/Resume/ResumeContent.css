@@ -1,0 +1,42 @@
+.ResumeContent {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.ContentTitleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContentTitleWrapper h2, .ContentTitleWrapper p {
+  margin-right: 15px;
+}
+
+.ResumeContent:hover h2 {
+  color: #ec1b29;
+  transition: all ease-in .2s;
+
+}
+
+.ResumeContent .ContentLink, .ResumeContent .ContentGithubLink {
+  color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .ResumeContent {
+    width: 90%;
+    margin: auto;
+  
+  }
+  .ContentTitleWrapper {
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}

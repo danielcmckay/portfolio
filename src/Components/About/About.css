@@ -1,0 +1,40 @@
+.About {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  line-height: 1.8rem;
+}
+
+
+.About p, .About ul {
+  text-align: left;
+}
+
+.About-Special {
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+
+.Headshot-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid rgba(34, 34, 34, 0.788);
+}
+
+@media screen and (max-width: 400px) {
+  .About-Special {
+    line-height: 4rem;
+  }
+  .Headshot-container {
+    margin-bottom: 25px;
+  }
+}
+
