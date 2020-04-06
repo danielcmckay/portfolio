@@ -30,7 +30,8 @@ const ContentWrapper = () => {
       <Project
         title="Clip Joint 406"
         image={ClipJointGif}
-        link='www.clipjoint406.com'
+        link="https://www.clipjoint406.com"
+        repo="https://github.com/danielcmckay"
         description="A static website built for a local barbershop, utilizing a clean, modern design. Built with HTML and CSS."
       />
     </div>
