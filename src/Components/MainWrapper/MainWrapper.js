@@ -5,13 +5,13 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
 import './MainWrapper.css';
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 const MainWrapper = () => {
   return (
     <div className="MainWrapper">
 
-      <BrowserRouter>
+      <HashRouter>
       <Nav />
 
         <Switch>
@@ -28,7 +28,7 @@ const MainWrapper = () => {
             <About />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
