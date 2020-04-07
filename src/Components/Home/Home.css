@@ -78,6 +78,11 @@ i:hover {
     padding: 0px 0px;
     align-items: center;
   }
+
+  .Home h1 {
+    height: 200px;
+
+  }
   
   .Home sub {
     width: 100%;

@@ -28,8 +28,6 @@ const MainWrapper = () => {
             <About />
           </Route>
         </Switch>
-        <Redirect to="/"/>
-
       </BrowserRouter>
     </div>
   );

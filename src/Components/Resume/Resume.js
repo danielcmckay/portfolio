@@ -7,7 +7,7 @@ const Resume = () => {
     <div className="Resume">
       <div className="titlediv">
         <h1 className="name">Daniel McKay</h1>
-        <sub>Front End Developer</sub>
+        <sub>Web Developer</sub>
       </div>
       <span className="contact">
         <p>ph. 608-212-5513</p>

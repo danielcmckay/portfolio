@@ -11,20 +11,17 @@ const About = () => {
           <span
             className="Headshot-container"
             style={{
-              background: `url(${Headshot}) top center/cover no-repeat`,
-              display: "inline-block",
-              float: "left",
-              marginRight: "25px",
+              background: `url(${Headshot}) top center/cover no-repeat`
             }}
           ></span>
-          I’m a front end web developer that primarily uses React.js, as well as
+          I’m a web developer that primarily uses React.js, as well as
           HTML, CSS and Vanilla Javascript, to create clean, easy-to-use web
           applications. As a developer, I place a big focus on design, both for
-          the user and in my code. My philosophy is that an application can do
+          the user and in my code. An application can do
           all sorts of incredible things, but if it’s not attractive and
-          intuitive for the user, that application likely won’t get used. <br />
+          intuitive, that application likely won’t get used. <br />
           <br /> In my portfolio you’ll find a few of my projects that I feel
-          best demonstrate my skill set. The first is a CRUD application built
+          best demonstrate my skillset. The first is a CRUD application built
           with the MERN stack, where a user can sign up and create, store, and
           delete story ideas for a newspaper – it was built to organize my life
           in my previous job as a newspaper reporter. The application places a
